@@ -1,0 +1,86 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3470), pid=3684, tid=4840
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 7.0_01-b08
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (21.1-b02 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000214b000):  JavaThread "Unknown thread" [_thread_in_vm, id=4840, stack(0x00000000023c0000,0x00000000024c0000)]
+
+Stack: [0x00000000023c0000,0x00000000024c0000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x000000000214b000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=4840, stack(0x00000000023c0000,0x00000000024c0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x000000013f5c0000 - 0x000000013f5f3000 	C:\Program Files\Java\jre7\bin\javaw.exe
+0x00000000770a0000 - 0x000000007724c000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00000000769c0000 - 0x0000000076adf000 	C:\Windows\system32\kernel32.dll
+0x000007fefd5c0000 - 0x000007fefd62c000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fefdc90000 - 0x000007fefdd6b000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fefdb20000 - 0x000007fefdbbf000 	C:\Windows\system32\msvcrt.dll
+0x000007fefe1d0000 - 0x000007fefe1ef000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fefe3b0000 - 0x000007fefe4de000 	C:\Windows\system32\RPCRT4.dll
+0x0000000076e50000 - 0x0000000076f4a000 	C:\Windows\system32\USER32.dll
+0x000007fefdf80000 - 0x000007fefdfe7000 	C:\Windows\system32\GDI32.dll
+0x000007fefd9f0000 - 0x000007fefd9fe000 	C:\Windows\system32\LPK.dll
+0x000007fefe550000 - 0x000007fefe61a000 	C:\Windows\system32\USP10.dll
+0x000007fefc140000 - 0x000007fefc334000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16661_none_fa62ad231704eab7\COMCTL32.dll
+0x000007fefdbc0000 - 0x000007fefdc31000 	C:\Windows\system32\SHLWAPI.dll
+0x000007fefda10000 - 0x000007fefda3e000 	C:\Windows\system32\IMM32.DLL
+0x000007fefd8e0000 - 0x000007fefd9e9000 	C:\Windows\system32\MSCTF.dll
+0x0000000069c20000 - 0x0000000069cf1000 	C:\Program Files\Java\jre7\bin\msvcr100.dll
+0x000000005cc90000 - 0x000000005d35d000 	C:\Program Files\Java\jre7\bin\server\jvm.dll
+0x000007fef7ac0000 - 0x000007fef7ac9000 	C:\Windows\system32\WSOCK32.dll
+0x000007fefe4e0000 - 0x000007fefe52d000 	C:\Windows\system32\WS2_32.dll
+0x000007fefda00000 - 0x000007fefda08000 	C:\Windows\system32\NSI.dll
+0x000007fefa380000 - 0x000007fefa3bb000 	C:\Windows\system32\WINMM.dll
+0x0000000077270000 - 0x0000000077277000 	C:\Windows\system32\PSAPI.DLL
+0x000000006f520000 - 0x000000006f52f000 	C:\Program Files\Java\jre7\bin\verify.dll
+0x000000006f4f0000 - 0x000000006f518000 	C:\Program Files\Java\jre7\bin\java.dll
+0x000000006f4d0000 - 0x000000006f4e5000 	C:\Program Files\Java\jre7\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:C:\Users\SungDuk\AppData\Local\Android\android-sdk\platforms\android-17\android.jar 
+java_command: jParse
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\
+USERNAME=SungDuk
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=AMD64 Family 16 Model 4 Stepping 2, AuthenticAMD
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7600 
+
+CPU:total 4 (4 cores per cpu, 1 threads per core) family 16 model 4 stepping 2, cmov, cx8, fxsr, mmx, sse, sse2, sse3, popcnt, mmxext, 3dnowpref, lzcnt, sse4a
+
+Memory: 4k page, physical 8380304k(5191804k free), swap 16758700k(13341644k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (21.1-b02) for windows-amd64 JRE (1.7.0_01-b08), built on Oct  3 2011 01:39:25 by "java_re" with unknown MS VC++:1600
+
+time: Thu Mar 07 19:33:44 2013
+elapsed time: 0 seconds
+

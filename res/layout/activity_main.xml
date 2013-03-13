@@ -1,0 +1,171 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill_horizontal"
+    android:background="@drawable/appbackground"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/olderPosts"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical|center_horizontal"
+            android:text="Older Posts" />
+
+        <Button
+            android:id="@+id/pageRefresh"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.79"
+            android:drawableLeft="@drawable/button_refresh_01"
+            android:text="Refresh"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/newerPosts"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Newer Posts" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/applogo" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/picture"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:adjustViewBounds="true"
+                android:paddingBottom="3dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/rooseveltappbanner" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:onClick="myClickHandler"
+                android:text="Button"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:onClick="myClickHandler"
+                android:text="Button"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:onClick="myClickHandler"
+                android:text="Button"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:onClick="myClickHandler"
+                android:text="Button"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:onClick="myClickHandler"
+                android:text="Button"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:onClick="myClickHandler"
+                android:text="Button"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:onClick="myClickHandler"
+                android:text="Button"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:onClick="myClickHandler"
+                android:text="Button"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:onClick="myClickHandler"
+                android:text="Button"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:onClick="myClickHandler"
+                android:text="Button"
+                android:typeface="serif" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
